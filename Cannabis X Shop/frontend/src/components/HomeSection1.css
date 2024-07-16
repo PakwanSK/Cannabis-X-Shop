@@ -1,0 +1,236 @@
+.home1-row{
+    background-color: #909470;
+    display: flex;
+    justify-content: space-between;
+    height: 88vh;
+    width: 100%;
+  }
+.home1-colleft{
+    flex-basis: 48%;
+    padding-left: 2%;
+    padding-right: 5%;
+  }
+.home1-colleft img{
+    width: 40%;
+    height: 50%;
+  }
+.home1-colleft h1{
+    padding-top: 0;
+    padding-left: 30%;
+    font-size: 70px;
+    color: #050f07;
+  }
+.home1-colleft h2{
+    padding-top: 0;
+    padding-left: 25%;
+    font-size: 30px;
+    color: #050f07;
+  }
+.home1-colleft h3{
+    padding-top: 0;
+    padding-left: 25%;
+    font-size: 17px;
+    color: #050f07;
+    font-family: 'Sarabun', sans-serif;
+  }
+.home1-colleft p{
+    padding: 1px 0 25px;
+    padding-left: 25%;
+    font-size: 15px;
+    color: #050f07;
+    font-family: 'Sarabun', sans-serif;
+        
+  }
+.home1-colright a{
+    padding: 1px 0 25px;
+    padding-left: 27%;
+    font-size: 15px;
+    color: #909470;
+    font-family: 'Sarabun', sans-serif;
+        
+  }
+  
+  
+.home1-colright{
+    flex-basis: 48%;
+    padding-right: 10%;
+  }
+.home1-colright img{
+    width: 40%;
+    height: 50%;
+  }
+.home1-colright h1{
+    padding-top: 0;
+    padding-left: 25%;
+    font-size: 70px;
+    color: #050f07;
+  }
+.home1-colright h2{
+    padding-top: 0;
+    padding-left: 27%;
+    font-size: 30px;
+    color: #050f07;
+  }
+.home1-colright h3{
+    padding-top: 0;
+    padding-left: 27%;
+    font-size: 17px;
+    color: #050f07;
+    font-family: 'Sarabun', sans-serif;
+  }
+.home1-colright p{
+    padding: 1px 0 25px;
+    padding-left: 27%;
+    font-size: 15px;
+    color: #050f07;
+    font-family: 'Sarabun', sans-serif;
+        
+  }
+
+.home1-colleft a{
+    padding: 1px 0 25px;
+    padding-left: 27%;
+    font-size: 15px;
+    color: #909470;
+    font-family: 'Sarabun', sans-serif;
+        
+  }
+
+.home1-colleft{
+  flex-basis: 48%;
+  padding-left: 2%;
+  padding-right: 5%;
+  padding-top: 5%;
+}
+.home1-colleft img{
+  width: 40%;
+  height: 50%;
+}
+.home1-colleft h1{
+  padding-top: 0;
+  padding-left: 50%;
+  font-size: 70px;
+  color: #050f07;
+}
+.home1-colleft h2{
+  padding-top: 3%;
+  padding-left: 45%;
+  font-size: 35px;
+  color: #050f07;
+}
+.home1-colleft h3{
+  padding-top: 3%;
+  padding-left: 25%;
+  font-size: 25px;
+  color: #050f07;
+  font-family: 'Sarabun', sans-serif;
+}
+.home1-colleft p{
+  padding: 1px 0 25px;
+  padding-left: 25%;
+  padding-bottom: 8%;
+  font-size: 20px;
+  color: #050f07;
+  font-family: 'Sarabun', sans-serif;
+      
+}
+
+.home1-colright u{
+  padding: 1px 0 25px;
+  padding-left: 27%;
+  font-size: 15px;
+  color: #909470;
+  font-family: 'Sarabun', sans-serif;
+      
+}
+
+
+.home1-colright{
+  flex-basis: 48%;
+  padding-right: 10%;
+  padding-top: 5%;
+}
+.home1-colright img{
+  width: 40%;
+  height: 50%;
+}
+.home1-colright h1{
+  padding-top: 0;
+  padding-left: 50%;
+  font-size: 70px;
+  color: #050f07;
+}
+.home1-colright h2{
+  padding-top: 3%;
+  padding-left: 48%;
+  font-size: 35px;
+  color: #050f07;
+}
+.home1-colright h3{
+  padding-top: 3%;
+  padding-left: 27%;
+  font-size: 25px;
+  color: #050f07;
+  font-family: 'Sarabun', sans-serif;
+}
+.home1-colright p{
+  padding: 1px 0 25px;
+  padding-left: 27%;
+  padding-bottom: 8%;
+  font-size: 20px;
+  color: #050f07;
+  font-family: 'Sarabun', sans-serif;
+      
+}
+
+.home1-colright u{
+  padding: 1px 0 25px;
+  padding-left: 27%;
+  font-size: 15px;
+  color: #909470;
+  font-family: 'Sarabun', sans-serif;
+      
+}
+
+@media screen and (max-width: 768px) {
+  .home1-row {
+    height: auto;
+  }
+  
+  .home1-colleft > h1 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .home1-colleft > h2 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .home1-colleft > h3 {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .home1-colleft > p {
+    font-size: 12px;
+  }
+
+  .home1-colright > h1 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .home1-colright > p {
+    font-size: 12px;
+  }
+  .home1-colright > h2 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .home1-colright > h3 {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}
